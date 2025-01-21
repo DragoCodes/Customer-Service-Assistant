@@ -1,0 +1,22 @@
+[project]
+name = "1"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Drago", email = "134218117+DragoCodes@users.noreply.github.com" }
+]
+dependencies = [
+    "ipykernel~=6.29.5",
+    "nltk~=3.9.1",
+    "speechrecognition~=3.14.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
