@@ -26,6 +26,8 @@ asttokens==3.0.0
     # via stack-data
 attrs==24.3.0
     # via aiohttp
+better-profanity==0.7.0
+    # via 1
 certifi==2024.12.14
     # via requests
 cffi==1.17.1
